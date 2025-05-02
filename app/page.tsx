@@ -15,7 +15,7 @@ export default function Home() {
       <Hero />
       <Partners />
 
-      <div className="py-10 px-4 sm:px-45">
+      <div className="py-10 px-4  md:px-20 lg:px-45">
         <div className="flex flex-col justify-self-center text-center justify-center gap-2 items-center sm:max-w-2/5 ">
           <h2 className="text-3xl font-bold">High-impact services
             for your business</h2>
@@ -80,7 +80,7 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="grid my-8 sm:grid-cols-2 px-4 sm:px-45">
+      <section className="grid my-8 sm:grid-cols-2 px-4 md:px-20 lg:px-45">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -166,7 +166,7 @@ export default function Home() {
         </motion.div>
       </section>
 
-      <div className="py-10 px-4 sm:px-45 bg-[#F7F7F7]">
+      <div className="py-10 px-4 md:px-20 lg:px-45 bg-[#F7F7F7]">
         <div className="flex flex-col justify-self-center text-center justify-center gap-2 items-center sm:max-w-2/5 ">
           <motion.h2
             initial={{ y: 20 }}
@@ -247,7 +247,7 @@ export default function Home() {
 
 
       <section>
-        <div className="testimonial-header flex justify-between items-center px-4 sm:px-45">
+        <div className="testimonial-header flex justify-between items-center px-4 md:px-20 lg:px-45">
           <h3 className="text-lg sm:text-3xl font-bold w-2/4  sm:w-2/5 my-4">Hear what our great
             customers say</h3>
           <Link className=' inline-flex items-center gap-2 text-sm py-3 px-3 sm:px-6 bg-black hover:bg-amber-400 text-white rounded-sm' href="/">
@@ -257,7 +257,7 @@ export default function Home() {
         <Testimonies />
       </section>
 
-      <section className="blogs px-4 sm:px-45 sm:py-20 bg-[#F7F7F7]">
+      <section className="blogs px-4 md:px-20 lg:px-45 sm:py-20 bg-[#F7F7F7]">
         <div className="testimonial-header flex justify-between items-center ">
           <h3 className=" text-xl sm:text-3xl font-bold w-3/5 sm:w-2/4 my-4">Browse our articles
             & resources</h3>

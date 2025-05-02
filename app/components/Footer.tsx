@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <footer className="p-5 sm:px-45 pt-20 bg-black ">
+        <footer className="p-5 md:px-20 lg:px-45 pt-20 bg-black ">
             <div className='flex flex-col sm:flex-row gap-2 bg-amber-100 p-5 sm:p-15 sm:-mt-36 rounded-md '>
                 <div className='sm:w-2/4'>
                     <span className='text-2xl sm:text-4xl font-bold'>Contact us today for

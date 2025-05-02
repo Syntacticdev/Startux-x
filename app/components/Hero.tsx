@@ -7,7 +7,7 @@ import React from 'react'
 export default function Hero() {
     return (
         <div
-            className=' my-10 flex flex-col-reverse sm:grid grid-cols-2 sm:items-center gap-3 px-4 sm:px-45 '>
+            className=' my-10 flex flex-col-reverse sm:grid grid-cols-2 sm:items-center gap-3 px-4 md:px-20 lg:px-45 '>
             <motion.div
                 initial={{ y: 50, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
