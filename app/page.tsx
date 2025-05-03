@@ -16,7 +16,7 @@ export default function Home() {
       <Partners />
 
       <div className="py-10 px-4  md:px-20 lg:px-45">
-        <div className="flex flex-col justify-self-center text-center justify-center gap-2 items-center sm:max-w-2/5 ">
+        <div className="flex flex-col justify-self-center text-center justify-center gap-2 items-center md:w-3/5 ">
           <h2 className="text-3xl font-bold">High-impact services
             for your business</h2>
           <p className="text-sm">High-impact services designed to drive business success with tailored solutions.</p>
@@ -70,10 +70,10 @@ export default function Home() {
               delay: 0.8
             }}
             className='flex gap-2 my-4'>
-            <Link className='flex items-center gap-2 text-sm py-3 px-6 bg-black hover:bg-amber-400 text-white rounded-sm' href="/">
+            <Link className='flex items-center gap-2 text-sm py-2 px-3 md:py-3 md:px-6 bg-black hover:bg-amber-400 text-white rounded-sm' href="/">
               Get in touch <ArrowRight className="w-3 h-3" />
             </Link>
-            <Link className='text-sm py-3 px-6 border-2 border-gray-500 hover:bg-gray-500 hover:text-white  rounded-sm' href="/">
+            <Link className='text-sm py-2 px-3 md:py-3 md:px-6 border-2 border-gray-500 hover:bg-gray-500 hover:text-white  rounded-sm' href="/">
               Browse all services
             </Link>
           </motion.div>
@@ -151,7 +151,7 @@ export default function Home() {
             </li>
           </ul>
 
-          <Link className='text-sm py-3 px-6 border-2 w-fit border-gray-500  rounded-sm' href="/">
+          <Link className='text-sm py-2 px-3 md:py-3 md:px-6 border-2 w-fit border-gray-500  rounded-sm' href="/">
             More about us
           </Link>
         </motion.div>
@@ -167,7 +167,7 @@ export default function Home() {
       </section>
 
       <div className="py-10 px-4 md:px-20 lg:px-45 bg-[#F7F7F7]">
-        <div className="flex flex-col justify-self-center text-center justify-center gap-2 items-center sm:max-w-2/5 ">
+        <div className="flex flex-col justify-self-center text-center justify-center gap-2 items-center  md:2/5 ">
           <motion.h2
             initial={{ y: 20 }}
             whileInView={{ y: 0 }}
@@ -231,10 +231,10 @@ export default function Home() {
               a free consultation</h3>
             <p className="text-sm py-4">  Let’s discuss how we can help your business grow and succeed. Our team is ready to provide tailored solutions to meet your unique needs.</p>
             <div className='flex gap-2 my-4'>
-              <Link className='flex items-center gap-2 text-sm py-3 px-6 bg-white hover:bg-amber-400 font-semibold text-black rounded-sm' href="/">
+              <Link className='flex items-center gap-2 text-sm py-2 px-3 md:py-3 md:px-6 bg-white hover:bg-amber-400 font-semibold text-black rounded-sm' href="/">
                 Get in touch <ArrowRight className="w-3 h-3" />
               </Link>
-              <Link className='text-sm py-3 px-6 border-2 border-gray-500 hover:bg-gray-500 hover:text-white rounded-sm' href="/">
+              <Link className='text-sm py-2 px-3 md:py-3 md:px-6 border-2 border-gray-500 hover:bg-gray-500 hover:text-white rounded-sm' href="/">
                 Our services
               </Link>
             </div>
@@ -259,10 +259,10 @@ export default function Home() {
 
       <section className="blogs px-4 md:px-20 lg:px-45 sm:py-20 bg-[#F7F7F7]">
         <div className="testimonial-header flex justify-between items-center ">
-          <h3 className=" text-xl sm:text-3xl font-bold w-3/5 sm:w-2/4 my-4">Browse our articles
+          <h3 className=" text-lg sm:text-3xl font-bold w-3/5 sm:w-2/4 my-4">Browse our articles
             & resources</h3>
-          <Link className='flex items-center gap-2 text-sm py-3 px-6 bg-black hover:bg-amber-400 text-white rounded-sm' href="/">
-            More article <ArrowRight className="w-3 h-3" />
+          <Link className='flex items-center gap-2 text-sm py-2 px-3 md:py-3 md:px-6 bg-black hover:bg-amber-400 text-white rounded-sm' href="/">
+            <span>More article</span> <ArrowRight className="w-3 h-3" />
           </Link>
         </div>
 

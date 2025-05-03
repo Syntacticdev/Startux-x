@@ -6,16 +6,16 @@ import React from 'react'
 export default function Footer() {
     return (
         <footer className="p-5 md:px-20 lg:px-45 pt-20 bg-black ">
-            <div className='flex flex-col sm:flex-row gap-2 bg-amber-100 p-5 sm:p-15 sm:-mt-36 rounded-md '>
+            <div className='flex flex-col sm:flex-row gap-2 bg-amber-100 p-5 md:p-10 sm:-mt-36 rounded-md '>
                 <div className='sm:w-2/4'>
                     <span className='text-2xl sm:text-4xl font-bold'>Contact us today for
                         a free consultation</span>
                 </div>
-                <div className='flex  gap-2 my-4'>
-                    <Link className='flex items-center gap-2 text-sm py-3 px-6 bg-black hover:bg-amber-400  text-white rounded-sm' href="/">
-                        Get in touch <ArrowRight className="w-3 h-3" />
+                <div className='flex items-center gap-2 my-4'>
+                    <Link className='flex gap-1 items-center text-sm py-3 px-4  bg-black hover:bg-amber-400  text-white rounded-sm' href="/">
+                        <span>Get in touch</span> <ArrowRight className="w-3 h-3" />
                     </Link>
-                    <Link className='text-sm py-3 px-6 border-2 border-gray-500 hover:bg-gray-500 hover:text-white rounded-sm' href="/">
+                    <Link className='text-sm  py-3 px-4 border-2 border-gray-500 hover:bg-gray-500 hover:text-white rounded-sm' href="/">
                         Our services
                     </Link>
                 </div>

@@ -13,19 +13,19 @@ const Header: React.FC = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{
                 duration: 0.8,
-                // delay: 0.2,
                 ease: [0, 0.71, 0.2, 1.01],
             }}
-            className="flex relative shadow-xs shadow-black sm:shadow-none   items-center justify-between h-14 py-4 sm:flex-row px-4 sm:px-45 ">
+            className="flex fixed sm:relative top-0 left-0 right-0 items-center justify-between h-14 py-4 sm:flex-row px-4 sm:px-45 bg-white z-40 shadow-md sm:shadow-sm"
+        >
             <Link href="/" className="text-lg font-bold">Startux X</Link>
-            <div className={
-                `flex justify-between  bg-white fixed top-14 left-0 transform transition-all ease-in-out 
+            <div className={`
+                flex justify-between bg-white fixed top-14 left-0 transform transition-all ease-in-out 
                 ${toggleMobile ? "translate-x-0" : "-translate-x-full"} 
-                h-screen  w-full z-30 md:bg-transparent p-5
-                border border-black border-t-[1px] sm:border-none
-                md:relative md:h-fit md:w-fit md:top-0 md:mx-auto md:translate-x-0`
-            }>
-                <nav className="flex flex-col text-xl sm:text-sm  sm:flex-row gap-4 mt-2 sm:mt-0 ">
+                h-screen w-full z-30 md:bg-transparent p-5
+               
+                md:relative md:h-fit md:w-fit md:top-0 md:mx-auto md:translate-x-0
+            `}>
+                <nav className="flex flex-col text-xl sm:text-sm sm:flex-row gap-4 mt-2 sm:mt-0">
                     <Link href="#" className="flex items-center hover:underline"> <ChevronRight className='sm:hidden w-5 h-5' /> Home</Link>
                     <Link href="#" className="flex items-center hover:underline"><ChevronRight className='sm:hidden w-5 h-5' /> About</Link>
                     <Link href="#" className="flex items-center hover:underline"><ChevronRight className='sm:hidden w-5 h-5' /> Services</Link>
@@ -34,7 +34,7 @@ const Header: React.FC = () => {
             </div>
 
             <button className='bg-black text-white p-2 cursor-pointer text-sm rounded-md'>Get in touch</button>
-            <button onClick={() => setToggleMobile(!toggleMobile)} className=' flex cursor-pointer sm:hidden'>
+            <button onClick={() => setToggleMobile(!toggleMobile)} className='flex cursor-pointer sm:hidden'>
                 <Menu />
             </button>
         </motion.header>
